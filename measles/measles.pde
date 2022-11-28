@@ -19,7 +19,10 @@ void keyPressed() {
 } //End keyPressed
 //
 void mousePressed() {
-  
+  //OS System Start Button
+  //SplahScreen Star Button
+  //Quit Button
+  //Night Mode (includes day mode)
 } //End mousePressed
 //
 //End Main Program
