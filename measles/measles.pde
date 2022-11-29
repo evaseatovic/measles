@@ -1,10 +1,15 @@
 //Global Variables
-
+int appWidth, appHeight;
 //
 void setup() {
   //Display & Orientation
+  size(600, 400);
+  //FullScreen(); //displayWidth & displayHeight
+  displayOrientation(); //need smaller dimention 
+  appWidth = width;
+  appHeight = height;
   //Population
-  //Theme: i.e Face
+  //Theme: i.e Face (will work in portrait and landscape)
   //Background Image with tint()
 } //End setup
 //
