@@ -10,6 +10,7 @@ void setup() {
   appHeight = height;
   //Population
   //Theme: i.e Face (will work in portrait and landscape)
+  faceSetup();
   //Background Image with tint()
 } //End setup
 //
