@@ -1,7 +1,7 @@
-boolean landscape=false,portrait=false; //caution: if landscape if false then portrait must be true
+Boolean landscape=false, portrait=false; //CAUTION: if landscape is false, then portrait must be true
 //
 void displayOrientation() {
-  //Display orientation Algorithum, see Hello World copy
+  //Display Orientation Algorithm, see Hello World copy
   landscape = true; //Hardcoded for now
 } //End displayOrientation
 //
