@@ -1,10 +1,24 @@
-float rectEye1X, rectEye1Y, rectEye1Width, rectEye1Height, rectEye2X, rectEye2Y, rectEye2Width, rectEye2Height;
-float eye1X, eye1Y, eye1Diameter, eye2X, eye2Y, eye2Diameter;
+float leftEyeX, leftEyeY, rightEyeX, rightEyeY, eyeDiameter;
+//
 void eyes() {
-  //rect(rectEye1X, rectEye1Y, rectEye1Width, rectEye1Height);
-  //rect(rectEye2X, rectEye2Y, rectEye2Width, rectEye2Height);
-  ellipse(eye1X, eye1Y, eye1Diameter, eye1Diameter);
-  ellipse(eye2X, eye2Y, eye2Diameter, eye2Diameter);
+  leftEye();
+  rightEye();
 } //End eyes
 //
+/* CAUTION: ellipses are easier to draw here then rectangles (squares)
+ Thus, using eye-variables first and creating the inscribed rect()
+ */
+//
+void leftEye() {
+  //Logical Rectangle for Left Eye, teacher demo, repeated below
+  //Purpose: no measles in eye
+  //Easier layering method
+  //rect(leftEyeX-eyeDiameter*1/2, leftEyeY-eyeDiameter*1/2, eyeDiameter, eyeDiameter);
+  ellipse(leftEyeX, leftEyeY, eyeDiameter, eyeDiameter);
+} //End leftEye
+//
+void rightEye() {
+  //rect(rightEyeX-eyeDiameter*1/2, rightEyeY-eyeDiameter*1/2, eyeDiameter, eyeDiameter);
+  ellipse(rightEyeX, rightEyeY, eyeDiameter, eyeDiameter);
+} //End rightEye
 //End Eyes Subprogram
