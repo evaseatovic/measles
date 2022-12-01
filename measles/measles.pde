@@ -1,6 +1,7 @@
 //Global Variables
 int appWidth, appHeight;
 int reset=1;
+boolean nightMode=false;
 //
 void setup() {
   //Display & Orientation
