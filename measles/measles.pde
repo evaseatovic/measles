@@ -25,6 +25,7 @@ void draw() {
   eyes(); //Student created
   mouth(); //Student created
   nose(); //Student created
+  quitButton();
 }//End draw
 //
 void keyPressed() {
