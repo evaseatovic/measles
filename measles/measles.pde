@@ -2,7 +2,7 @@
 int appWidth, appHeight;
 int reset=1;
 color resetWhite=#FFFFFF;
-Boolean nightMode=false;
+Boolean nightMode=false, start = false, nowReallyStart = false;
 //
 void setup() {
   //Display & Orientation
@@ -36,10 +36,15 @@ void keyPressed() {
       nightMode=false;
     }
   }
+  //
+  if ( key==' ' && start==true ) nowReallyStart = true;
+  //
 }//End keyPressed
 //
 void mousePressed() {
   //OS System Button
+  start = true;
+  println("start By Pressing Space The Space Bar");
   //Start Button
   //Quit Button
   //Night Mode
